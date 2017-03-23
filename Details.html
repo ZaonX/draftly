@@ -1,0 +1,211 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<!-- saved from url=(0022)http://internet.e-mail -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+
+
+</head>
+<body background="https://image.ibb.co/bGCuwF/login.gif"  style="background-repeat:no-repeat;">
+
+
+<br><br><br><br><br><br><br><br><br><br>
+<h2 style="margin-left:300px">Enter your details</h2>
+
+<span style="margin-left:250px">Name:</span><input type="text" id="name" name="a1" style="margin-left:50px" ><br><br>
+<span style="margin-left:250px">Pan Card no:</span><input type="text" id="name" name="a1" style="margin-left:10px" ><br><br>
+<!-- Trigger/Open The Modal -->
+<button id="myBtn" onclick="myFunction()" style="margin-left:380px">Submit</button>
+
+
+<!--<p id="demo">5656</p>-->
+
+<div id="aditya" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="aditya1" src="https://image.ibb.co/bSUA3v/aditya.jpg"/>
+  </div>
+</div>
+
+<div id="siddhesh" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="siddhesh1" src="https://image.ibb.co/g1PPwF/siddhesh.jpg"/>
+  </div>
+</div>
+<div id="sushant" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="sushant1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLRiEeD7UYvvp2Ic3LODxopedH6FAngZilJjr0DnyCVqlyC6NQCg"/>
+  </div>
+
+</div>
+
+<div id="satish" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="satish1" src="https://image.ibb.co/jgj7GF/satish.jpg"/>
+  </div>
+
+</div>
+
+<div id="nikita" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="nikita1" src="https://image.ibb.co/cE5a3v/nikita.jpg"/>
+  </div>
+
+</div>
+
+<div id="rahul" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="rahul1" src="https://image.ibb.co/bwXGAa/rahul.jpg"/>
+  </div>
+
+</div>
+
+<div id="ajit" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="ajit1" src="https://image.ibb.co/dmw9Va/ajit.jpg"/>
+  </div>
+
+</div>
+
+<div id="priyanka" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="priyanka1" src="https://image.ibb.co/jXFsiv/priyanka.jpg"/>
+  </div>
+
+</div>
+	
+
+<script>
+
+function myFunction() {
+
+var sa = document.getElementsByName("a1")[0].value;
+
+var modal =document.getElementById(sa);
+    modal.style.display = "block";
+	var temp;
+if (sa=="siddhesh"){
+temp=1;
+}
+if (sa=="sushant"){
+temp=2;
+}
+if (sa=="aditya"){
+temp=0;
+}
+if (sa=="satish"){
+temp=3;
+}
+if (sa=="nikita"){
+temp=4;
+}
+if (sa=="rahul"){
+temp=5;
+}
+if (sa=="ajit"){
+temp=6;
+}
+if (sa=="priyanka"){
+temp=7;
+}
+
+	var span = document.getElementsByClassName("close")[temp];
+
+	span.onclick = function() {
+    modal.style.display = "none";
+}
+
+
+
+
+	}
+// Get the modal
+//
+
+// Get the button that opens the modal
+
+
+// Get the <span> element that closes the modal
+
+
+// When the user clicks the button, open the modal 
+
+
+// When the user clicks on <span> (x), close the modal
+
+
+
+// When the user clicks anywhere outside of the modal, close it
+//window.onclick = function(event) {
+  // if (event.target == modal) {
+   //    modal.style.display = "none";
+   // }
+
+
+</script>
+
+</body>
+</html>
